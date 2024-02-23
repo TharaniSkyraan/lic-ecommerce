@@ -1,11 +1,11 @@
 {
-    "name": "sky/lic-ecommerce",
+    "name": "tharasky/lic-ecommerce",
     "description": "This is installation for ecommerce project",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "TharaniShankat",
+            "name": "TharaniShankar",
             "email": "tharanmca1@gmail.com"
         }
     ],
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Sky\\LicEcommerce\\": "src/"
+            "Tharasky\\LicEcommerce\\": "src/"
         }
     }
 }

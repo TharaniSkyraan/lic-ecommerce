@@ -1,10 +1,10 @@
 <?php
 // src/LicecommerceHelper.php
 
-namespace Sky\LicEcommerce\Helpers;
+namespace Tharasky\LicEcommerce\Helpers;
 
 use Illuminate\Support\Facades\Schema;
-use Sky\LicEcommerce\Models\License;
+use Tharasky\LicEcommerce\Models\License;
 
 class LicEcommerceHelper
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sky\LicEcommerce\Models;
+namespace Tharasky\LicEcommerce\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

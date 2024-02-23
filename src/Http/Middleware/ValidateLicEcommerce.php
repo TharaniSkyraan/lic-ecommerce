@@ -1,11 +1,11 @@
 <?php
 
-namespace Sky\LicEcommerce\Http\Middleware;
+namespace Tharasky\LicEcommerce\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Sky\LicEcommerce\Helpers\LicEcommerceHelper;
+use Tharasky\LicEcommerce\Helpers\LicEcommerceHelper;
 
 class ValidateLicEcommerce
 {

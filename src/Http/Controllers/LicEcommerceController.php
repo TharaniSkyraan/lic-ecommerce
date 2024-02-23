@@ -1,11 +1,11 @@
 <?php
 
-namespace Sky\LicEcommerce\Http\Controllers;
+namespace Tharasky\LicEcommerce\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
-use Sky\LicEcommerce\Models\License;
+use Tharasky\LicEcommerce\Models\License;
 
 class LicEcommerceController extends Controller
 {

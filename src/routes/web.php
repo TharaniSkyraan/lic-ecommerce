@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::group(['namespace'=>'Sky\LicEcommerce\Http\Controllers'], function(){
+Route::group(['namespace'=>'Tharasky\LicEcommerce\Http\Controllers'], function(){
 
     Route::get('installlic','LicEcommerceController@index');
     Route::post('installlic','LicEcommerceController@store')->name('installlic');

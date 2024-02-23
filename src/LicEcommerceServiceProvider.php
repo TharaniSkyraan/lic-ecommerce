@@ -1,5 +1,5 @@
 <?php
-namespace Sky\LicEcommerce;
+namespace Tharasky\LicEcommerce;
 
 use Illuminate\Support\ServiceProvider;
 
