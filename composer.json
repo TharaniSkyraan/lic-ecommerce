@@ -20,12 +20,7 @@
         "laravel": {
             "providers": [
                 "Tharasky\\LicEcommerce\\LicEcommerceServiceProvider"
-            ],
-            "middlewareGroups": {
-                "web": [
-                    "Tharasky\\LicEcommerce\\Http\\Middleware\\ValidateLicEcommerce"
-                ]
-            }
+            ]
         }
     }
 }
