@@ -35,3 +35,12 @@ In kernal.php include inside of middlewareGroup
 \Tharasky\LicEcommerce\Http\Middleware\ValidateLicEcommerce::class,
 
 ```
+
+# Composer 
+
+In kernal.php include inside of middlewareGroup
+
+```bash
+composer dump-autoload
+
+```
