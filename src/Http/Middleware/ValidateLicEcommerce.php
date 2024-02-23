@@ -16,12 +16,19 @@ class ValidateLicEcommerce
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $result = LicEcommerceHelper::ensureLicenseActive();
+        
+        $segments = request()->segments();
+        $lastSegment = end($segments);
 
-        if($result!='success'){
-            return redirect($result);
+        if($lastSegment!='installlic' && $lastSegment!='lic-expired'){
+               
+            $result = LicEcommerceHelper::ensureLicenseActive();
+
+            if($result!='success'){
+                return redirect($result);
+            }
         }
-
+        
         return $next($request);
     }
 }
