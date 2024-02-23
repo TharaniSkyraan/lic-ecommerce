@@ -1,6 +1,6 @@
 {
     "name": "tharasky/lic-ecommerce",
-    "description": "This is installation for ecommerce project",
+    "description": "This is library for license installation in project",
     "type": "library",
     "license": "MIT",
     "authors": [
